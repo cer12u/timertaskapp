@@ -5,7 +5,7 @@ declare module 'next-pwa' {
     dest: string;
     register?: boolean;
     skipWaiting?: boolean;
-    [key: string]: any;
+    [key: string]: unknown;
   }): (nextConfig: NextConfig) => NextConfig;
   
   export default withPWA;
